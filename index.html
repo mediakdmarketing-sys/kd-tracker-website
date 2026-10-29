@@ -355,39 +355,125 @@
           <span class="ghost" aria-hidden="true" data-dx="0.08">PRICING</span>
           <span class="eyebrow reveal">Simple plans</span>
           <h2 data-split>Start free. Grow when you are ready.</h2>
-          <p class="reveal">Every plan includes time tracking, attendance and breaks.</p>
+          <p class="reveal">Every plan includes time tracking, attendance and breaks. Try any paid plan free for 14 days.</p>
         </div>
+
+        <div class="billing reveal" role="group" aria-label="Billing period">
+          <button type="button" class="on" data-billing="month" aria-pressed="true">Monthly</button>
+          <button type="button" data-billing="year" aria-pressed="false">Yearly <span class="save">2 months free</span></button>
+        </div>
+
         <div class="plans">
           <article class="plan reveal tilt-in">
             <h3>Free</h3>
-            <p class="price"><b>$0</b><small>for small teams</small></p>
+            <p class="plan-for">To try it with a small team</p>
+            <p class="price"><b>$0</b><small>free forever</small></p>
             <ul class="ticks">
-              <li>Up to 5 people</li><li>Time, attendance and breaks</li><li>Leave requests</li><li>Idle time insight</li><li>1 GB storage</li>
+              <li>Up to 5 people</li>
+              <li>Time, attendance and breaks</li>
+              <li>Leave requests and approval</li>
+              <li>Idle time insight</li>
+              <li>Basic reports</li>
+              <li>1 GB storage</li>
+              <li>7 days of history</li>
+              <li>Web app and desktop app</li>
+              <li>Community support</li>
             </ul>
             <a class="btn btn-outline" href="#contact">Get started</a>
           </article>
+
+          <article class="plan reveal tilt-in">
+            <h3>Starter</h3>
+            <p class="plan-for">Time and leave, no monitoring</p>
+            <p class="price"><b data-month="$3" data-year="$2.50">$3</b><small data-month="per user / month" data-year="per user / month, billed yearly">per user / month</small></p>
+            <ul class="ticks">
+              <li>Up to 25 people</li>
+              <li>Everything in Free</li>
+              <li>Half-day and full-day rules</li>
+              <li>Reports and CSV export</li>
+              <li>Import and export people</li>
+              <li>5 GB storage</li>
+              <li>90 days of history</li>
+              <li>Departments and team leaders</li>
+              <li>Web, desktop and Android apps</li>
+              <li>Email support, reply within 2 days</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Start free trial</a>
+          </article>
+
           <article class="plan pop reveal tilt-in">
             <span class="badge">Most popular</span>
-            <h3>Pro</h3>
-            <p class="price"><b>Let's talk</b><small>per person, per month</small></p>
+            <h3>Business</h3>
+            <p class="plan-for">The full picture for growing teams</p>
+            <p class="price"><b data-month="$7" data-year="$5.83">$7</b><small data-month="per user / month" data-year="per user / month, billed yearly">per user / month</small></p>
             <ul class="ticks">
-              <li>Everything in Free</li><li>Screenshots and mic check</li><li>Payroll and reports</li><li>Up to 100 people</li><li>50 GB storage</li>
+              <li>Up to 200 people</li>
+              <li>Everything in Starter</li>
+              <li>Screenshots and mic check</li>
+              <li>Productivity and app categories</li>
+              <li>Payroll summaries and export</li>
+              <li>50 GB storage</li>
+              <li>1 year of history</li>
+              <li>Consent screen and audit log</li>
+              <li>Screenshot blur and retention control</li>
+              <li>Priority email support, reply within 1 day</li>
             </ul>
-            <a class="btn btn-primary" href="#contact">Book a demo</a>
+            <a class="btn btn-primary" href="#contact">Start free trial</a>
+            <p class="plan-note">Minimum 5 users</p>
           </article>
+
           <article class="plan reveal tilt-in">
-            <h3>Agency</h3>
-            <p class="price"><b>Custom</b><small>many companies, one account</small></p>
+            <h3>Enterprise &amp; Agency</h3>
+            <p class="plan-for">For big teams and for agencies</p>
+            <p class="price"><b>Custom</b><small>talk to us</small></p>
             <ul class="ticks">
-              <li>Unlimited companies</li><li>White-label and custom domains</li><li>Plans, trials and limits per client</li><li>Support staff access</li><li>Priority support</li>
+              <li>Unlimited people and companies</li>
+              <li>Everything in Business</li>
+              <li>White-label and custom domains</li>
+              <li>A plan, trial and limits per client</li>
+              <li>Support staff and platform audit log</li>
+              <li>Two-factor for platform admins</li>
+              <li>Custom storage and history</li>
+              <li>Data export and removal on request</li>
+              <li>Dedicated support and onboarding</li>
             </ul>
             <a class="btn btn-outline" href="#contact">Contact us</a>
           </article>
+        </div>
+
+        <div class="addons reveal">
+          <h3>Add-ons</h3>
+          <ul>
+            <li><b>Extra storage</b><span>+$5 per 50 GB / month</span></li>
+            <li><b>Longer retention</b><span>Keep captures beyond 31 days, +$1 per user</span></li>
+            <li><b>Custom domain &amp; white-label</b><span>$15 to $25 per company / month</span></li>
+            <li><b>Onboarding</b><span>CSV import and training, from $99 once</span></li>
+            <li><b>Priority support</b><span>Faster answers and an SLA, $49 / month</span></li>
+          </ul>
+          <div class="compare-wrap">
+            <table class="compare">
+              <thead><tr><th>Compare plans</th><th>Free</th><th>Starter</th><th>Business</th><th>Enterprise &amp; Agency</th></tr></thead>
+              <tbody>
+                <tr><td>People</td><td>Up to 5</td><td>Up to 25</td><td>Up to 200</td><td>Unlimited</td></tr>
+                <tr><td>Storage</td><td>1 GB</td><td>5 GB</td><td>50 GB</td><td>Custom</td></tr>
+                <tr><td>History</td><td>7 days</td><td>90 days</td><td>1 year</td><td>Custom</td></tr>
+                <tr><td>Screenshots and mic check</td><td>&ndash;</td><td>&ndash;</td><td>&#10003;</td><td>&#10003;</td></tr>
+                <tr><td>Half-day and full-day rules</td><td>&ndash;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td></tr>
+                <tr><td>Payroll summaries and export</td><td>&ndash;</td><td>&ndash;</td><td>&#10003;</td><td>&#10003;</td></tr>
+                <tr><td>White-label and custom domains</td><td>&ndash;</td><td>&ndash;</td><td>Add-on</td><td>&#10003;</td></tr>
+                <tr><td>Many companies, one account</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&#10003;</td></tr>
+                <tr><td>Support</td><td>Community</td><td>Email</td><td>Priority email</td><td>Dedicated</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="pricing-note"><a href="pricing.html"><b>See all package details &rarr;</b></a></p>
+          <p class="pricing-note">Prices are in US dollars and exclude taxes. Yearly billing is 10 months for the price of 12.</p>
         </div>
       </div>
     </section>
 
     <!-- ===== FAQ ===== -->
+
     <section class="section alt" id="faq">
       <div class="wrap narrow">
         <div class="section-head">

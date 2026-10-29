@@ -165,6 +165,20 @@ tabs.forEach((t, i) => {
 });
 
 // ------------------------------------------------------------
+//  Pricing: monthly / yearly toggle
+// ------------------------------------------------------------
+const billingButtons = $$('[data-billing]');
+billingButtons.forEach((btn) => btn.addEventListener('click', () => {
+  const period = btn.dataset.billing;
+  billingButtons.forEach((b) => {
+    const on = b === btn;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+  $$('[data-month]').forEach((el) => { el.textContent = el.dataset[period]; });
+}));
+
+// ------------------------------------------------------------
 //  Demo form: opens the visitor's email app with the details filled in
 // ------------------------------------------------------------
 const form = $('#contact-form');
